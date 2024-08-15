@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif; /* Establece la fuente de toda la página */
+    display: flex; /* Utiliza Flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Altura del 100% de la ventana */
+    margin: 0; /* Elimina el margen por defecto del body */
+    background-color: #f4f4f4; /* Color de fondo de la página */
+}
+
+.container {
+    width: 600px; /* Ancho del contenedor */
+    height: 700px; /* Alto del contenedor */
+    background-color: white; /* Fondo blanco para el contenedor */
+    border: 1px solid #ddd; /* Borde gris claro */
+    padding: 20px; /* Espaciado interno del contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra alrededor del contenedor */
+    display: flex; /* Flexbox dentro del contenedor */
+    flex-direction: column; /* Dirección de los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+}
+
+h1 {
+    color: black; /* Color del texto */
+    font-size: 18px; /* Tamaño de la fuente */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.label {
+    color: blue; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 14px; /* Tamaño de la fuente */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+.input {
+    font-size: 14px; /* Tamaño de la fuente */
+    color: black; /* Color del texto */
+    background-color: yellow; /* Color de fondo */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde gris claro */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.button {
+    font-weight: bold; /* Texto en negrita */
+    font-size: 16px; /* Tamaño de la fuente */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    cursor: pointer; /* Cursor de puntero al pasar sobre el botón */
+    margin: 5px; /* Espaciado alrededor del botón */
+}
+
+#calculateBtn {
+    background-color: green; /* Color de fondo verde */
+}
+
+.clear {
+    background-color: yellow; /* Color de fondo amarillo */
+    color: black; /* Color del texto negro */
+}
+
+.exit {
+    background-color: red; /* Color de fondo rojo */
+}
+
+.result-container {
+    margin-top: 20px; /* Espaciado superior */
+    max-height: 300px; /* Altura máxima del contenedor de resultados */
+    overflow-y: auto; /* Scroll vertical si el contenido excede la altura máxima */
+}
+
+.result-item {
+    font-size: 18px; /* Tamaño de la fuente */
+    margin: 5px 0; /* Espaciado vertical entre los elementos de resultado */
+}
